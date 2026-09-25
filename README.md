@@ -6,7 +6,7 @@ The detailed dashboard analysis focuses on Brooklyn.
 
 ## Tableau Dashboard
 
-[View the interactive Tableau dashboard](https://public.tableau.com/shared/W7KMRQ3JG?:display_count=n&:origin=viz_share_link)
+[View the interactive Tableau dashboard](https://public.tableau.com/app/profile/nakul.jaunjal/viz/NYCMotorVehicleAnalysis/Analysis)
 
 ## Dataset
 
