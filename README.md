@@ -1,8 +1,9 @@
+
 # New York Motor Vehicle Collision Analysis
 
-This project analyzes motor vehicle collision data from New York City using Tableau. The analysis focuses on understanding when collisions happen, where they are concentrated, the major factors behind them, and areas with higher pedestrian and cyclist risk.
+This project analyzes motor vehicle collision data from New York City using Tableau. I looked at when collisions happen, where they occur most often, the main contributing factors, and areas with higher pedestrian and cyclist risk.
 
-The detailed dashboard analysis focuses on Brooklyn.
+The detailed analysis focuses on Brooklyn.
 
 ## Tableau Dashboard
 
@@ -13,7 +14,7 @@ The detailed dashboard analysis focuses on Brooklyn.
 - Dataset: NYC Motor Vehicle Collision Data
 - Records: 993,930
 - Date Range: July 2012 - March 2017
-- Main Analysis Area: Brooklyn, New York
+- Analysis Area: Brooklyn, New York
 
 ## Tools Used
 
@@ -22,8 +23,6 @@ The detailed dashboard analysis focuses on Brooklyn.
 - Excel
 
 ## What I Analyzed
-
-The project looks at:
 
 - Collisions by weekday
 - Collisions by time of day
@@ -36,52 +35,52 @@ The project looks at:
 
 ## Data Preparation
 
-The dataset contained 48 different contributing factors. To make the analysis easier to understand, they were grouped into six categories:
+The dataset contained 48 different contributing factors. I grouped them into six broader categories so the results were easier to analyze:
 
 - Driver Distraction / Inattention
 - Bad Driving
 - Health Issues
 - Outside Distraction
-- Driving Under Influence
+- Driving Under the Influence
 - Car Defects
 
 Contributing-factor fields for vehicles 2-5 were not included in the main analysis because many of the values were unspecified or null.
 
 Unspecified and null values were also excluded from the primary contributing-factor analysis.
 
-## Dashboard 1: Contributing Factors and Time of Day
+## Contributing Factors and Time of Day
 
-This dashboard looks at collision patterns across weekdays, contributing factors, and hours of the day.
+This dashboard compares collision patterns across weekdays, contributing factors, and different hours of the day.
 
-Some of the main findings were:
+Main findings:
 
 - Saturday and Sunday had lower collision volumes than most weekdays.
 - Driver Distraction / Inattention was the largest contributing-factor group.
-- Collision activity was highest during the late afternoon, especially around 3 PM to 6 PM.
+- Collision activity was highest during the late afternoon, especially from around 3 PM to 6 PM.
 
 ![Contributing Factors and Time](images/overview.png)
 
-## Dashboard 2: Collisions by Location
+## Collisions by Location
 
-This dashboard analyzes collisions by ZIP code and allows the data to be explored at the street and intersection level.
+This dashboard looks at collisions by ZIP code, street, and intersection.
 
-ZIP code 11201 was identified as one of the areas with a high number of collisions.
+ZIP code 11201 was one of the areas with a high number of collisions.
 
 ![Collisions by Location](images/location-analysis.png)
 
-## Dashboard 3: Location Hourly Trend
+## Location Hourly Trend
 
-Collision patterns were also analyzed by ZIP code and hour of day.
+This dashboard compares collision activity by location and hour of day.
 
-This makes it possible to identify locations where collision patterns differ depending on the time of day. For example, ZIP code 11213 showed comparatively higher collision activity during some late-night hours.
+It helps show how collision patterns can change depending on the area and time. For example, ZIP code 11213 showed comparatively higher collision activity during some late-night hours.
 
 ![Location Hourly Trend](images/hourly-trend.png)
 
-## Dashboard 4: Pedestrian and Cyclist Analysis
+## Pedestrian and Cyclist Analysis
 
 This dashboard focuses on pedestrian and cyclist injuries and deaths.
 
-ZIP code 11206 was identified as one of the areas that stood out in this analysis. The dashboard can also be used to examine streets and intersections within higher-risk areas.
+ZIP code 11206 stood out in this analysis. The dashboard can also be used to look more closely at streets and intersections within higher-risk areas.
 
 ![Pedestrian and Cyclist Analysis](images/injury-analysis.png)
 
@@ -92,12 +91,12 @@ Based on the analysis:
 - Focus distracted-driving awareness efforts on high-risk periods.
 - Increase traffic monitoring during peak collision hours.
 - Pay closer attention to high-collision ZIP codes and intersections.
-- Use hourly collision patterns to help decide where traffic enforcement may be needed at different times.
-- Increase DUI checks in areas showing higher late-night DUI-related collisions.
-- Improve pedestrian crossings, cycling infrastructure, traffic signals, and signs in higher-risk areas.
+- Use hourly collision patterns to help plan traffic enforcement at different times of day.
+- Increase DUI checks in areas with higher late-night DUI-related collisions.
+- Improve pedestrian crossings, cycling infrastructure, traffic signals, and signage in higher-risk areas.
 
 ## Tableau Workbook
 
-The Tableau packaged workbook used for this project is included in this repository:
+The Tableau packaged workbook is included in this repository:
 
 `NYC_Motor_Vehicle_Collision_Analysis.twbx`
